@@ -26,17 +26,10 @@ class TelegramBot:
 
     async def start_command(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         """Handle /start command"""
-        user_lang = detect_language(update.effective_user.language_code or 'en')
-        if user_lang == 'tr':
-            await update.message.reply_text(
-                "Merhaba! Ben cok dilli bir AI asistanim. "
-                "Benimle istediginiz dilde sohbet edebilirsiniz."
-            )
-        else:
-            await update.message.reply_text(
-                "Hello! I'm a multilingual AI assistant. "
-                "You can chat with me in any language."
-            )
+        await update.message.reply_text(
+            "Hello! I'm a multilingual AI assistant. "
+            "You can chat with me in any language."
+        )
 
     async def list_documents(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         """Handle /docs command"""

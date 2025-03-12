@@ -380,10 +380,7 @@ Instructions:
             if all_responses and all_responses[0].get("answer"):
                 return all_responses[0]["answer"]
             
-            if detected_lang == 'tr':
-                return "Üzgünüm, dokümanlarınızda ilgili bir bilgi bulamadım veya bir hata oluştu."
-            else:
-                return "Sorry, I couldn't find relevant information in your documents or an error occurred."
+            return "Sorry, I couldn't find relevant information in your documents or an error occurred."
     
     async def process_message_queue(self, user_id: str):
         """Process messages in the queue for a user"""
