@@ -1,7 +1,5 @@
 # Telegram Multi-Agent AI Bot
 
-## ✨ Overview
-
 **Telegram Multi-Agent AI Bot** is a powerful, AI-driven chatbot designed to intelligently process and respond to user messages on Telegram. Leveraging **OpenAI GPT-4o-mini**, **LangChain**, and **MongoDB Atlas Search**, this bot consolidates multiple short messages into a context-aware conversation, retrieves relevant information from stored documents, and generates coherent responses.
 
 ---
