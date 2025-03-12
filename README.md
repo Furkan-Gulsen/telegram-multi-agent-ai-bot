@@ -95,15 +95,6 @@ make run
 
 ---
 
-## 💡 Development Structure
-
-- **`app.py`** – Main application entry point.
-- **`MessageProcessor.py`** – Handles AI-based message processing.
-- **`TelegramBot.py`** – Manages Telegram API interactions.
-- **`FileProcessor.py`** – Processes and stores documents in MongoDB Atlas Search.
-
----
-
 ## 📃 Makefile Commands
 
 | Command               | Description |

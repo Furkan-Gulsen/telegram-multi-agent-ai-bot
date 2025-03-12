@@ -1,0 +1,6 @@
+*/__pycache__
+*/*/__pycache__
+.chromadb
+.env
+.DS_Store
+.vscode
